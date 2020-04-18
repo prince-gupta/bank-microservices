@@ -8,5 +8,9 @@
     <artifactId>bank</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>bank-microservice</module>
+        <module>bank-microservice-config</module>
+    </modules>
 </project>
